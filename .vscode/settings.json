@@ -1,0 +1,19 @@
+{
+  "editor.formatOnSave": false,
+  "files.autoSave": "off",
+  "javascript.format.enable": false,
+  "eslint.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.options": {
+    "extensions": [
+      ".html",
+      ".js",
+      ".jsx"
+    ]
+  },
+  "eslint.validate": ["html", "javascript", "javascriptreact"],
+  "eslint.workingDirectories":["./client", "./server"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}

@@ -1,0 +1,15 @@
+node_modules
+.env
+SQL
+*.pdf
+# Elastic Beanstalk Files
+server/.elasticbeanstalk/*
+server/!.elasticbeanstalk/*.cfg.yml
+server/!.elasticbeanstalk/*.global.yml
+server/data/*.json
+server/controllers/appointment/outputs/*
+server/public/*
+.gitattributes
+yarn.lock
+package-lock.lock
+./build
